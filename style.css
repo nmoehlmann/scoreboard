@@ -1,0 +1,70 @@
+:root {
+  --primary: #0e34a0;
+  --secondary: #dfdfdf;
+  --tertiary: #343434;
+  --fire: #b31f02;
+  --fireAccent: #ffff00;
+}
+
+/* COLOR UTILITIES */
+
+.colorPrimary {
+  color: var(--primary)
+}
+
+.colorSecondary {
+  color: var(--secondary)
+}
+
+.colorTertiary {
+  color: var(--tertiary)
+}
+
+.bgColorPrimary {
+  background-color: var(--primary)
+}
+
+.bgColorSecondary {
+  background-color: var(--secondary)
+}
+
+.bgColorTertiary {
+  background-color: var(--tertiary)
+}
+
+.buttonAttack {
+  color: var(--fireAccent);
+  background-color: var(--fire);
+}
+
+/* SELECTORS */
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  padding: .5rem;
+}
+
+button {
+  font-size: 1.3rem;
+  padding: .5rem;
+  margin: .5rem;
+}
+
+.healButton {
+  background-color: var(--tertiary);
+  color: var(--secondary)
+}
+
+.laserCannonButton {
+  background-color: var(--primary);
+  color: var(--secondary)
+}
+
+
+body {
+  background-image: url(https: //images.unsplash.com/photo-1504450758481-7338eba7524a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80)
+}
