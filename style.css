@@ -32,12 +32,17 @@
   background-color: var(--tertiary)
 }
 
+/* SELECTORS */
+
 .buttonAttack {
-  color: var(--fireAccent);
+  color: white;
   background-color: var(--fire);
 }
 
-/* SELECTORS */
+.buttonAttack:hover {
+  background-color: var(--fire);
+  color: var(--fireAccent);
+}
 
 h1 {
   font-size: 3rem;
@@ -59,12 +64,22 @@ button {
   color: var(--secondary)
 }
 
-.laserCannonButton {
-  background-color: var(--primary);
-  color: var(--secondary)
+.healButton:hover {
+  background-color: var(--tertiary);
+  color: lightgreen;
 }
 
-
 body {
-  background-image: url(https: //images.unsplash.com/photo-1504450758481-7338eba7524a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80)
+  background: url(https://cdna.artstation.com/p/assets/images/images/050/642/478/original/filthy-drawings-arena-exported.gif?1655321798) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.restartButton {
+  background-color: var(--primary);
+  color: var(--secondary);
+}
+
+.restartButton:hover {
+  background-color: firebrick;
+  color: var(--secondary);
 }
