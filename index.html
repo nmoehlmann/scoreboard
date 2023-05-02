@@ -13,14 +13,14 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body class="bgColorSecondary">
 
 
 
   <header class="container-fluid bgColorTertiary colorSecondary">
     <section class="row">
-      <div class="col-12 text-center m-3">
-        <h1>Street Fighter 10</h1>
+      <div class="col-12 text-center my-3">
+        <h1>Arena Figher</h1>
       </div>
     </section>
   </header>
@@ -32,45 +32,46 @@
       </div>
     </section>
     <section class="row">
+      <div class="col-6 d-flex justify-content-center pb-5">
+        <img src="https://opengameart.org/sites/default/files/robot-preview.png" alt="">
+      </div>
+      <div class="col-6 d-flex justify-content-center">
+        <img src="https://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/d90150f3b15d09b.png" alt="">
+      </div>
+    </section>
+    <section class="row">
       <div class="col-6 text-center">
         <h2><i class="fa-solid fa-robot px-3"></i>Robot Health: <span id="robotHealth">100</span></h2>
         <div>
-          <button class="healButton" id="robotRepair" onclick="robotRepair()"><i
+          <button class="healButton btn btn-lg" id="robotRepair" onclick="robotRepair()"><i
               class="fa-solid fa-screwdriver-wrench px-2"></i>Repair +10</button>
         </div>
         <div>
-          <button class="buttonAttack" id="laserCannon" onclick="laserCannon()">🔥Fire Laser Cannon</button>
+          <button class="buttonAttack btn btn-lg" id="laserCannon" onclick="laserCannon()">🔫 Fire Laser Gun</button>
         </div>
       </div>
       <div class="col-6 text-center">
         <h2><i class="fa-solid fa-hat-wizard px-3"></i>Wizard Health: <span id="wizardHealth">100</span></h2>
         <div>
-          <button class="healButton" id="wizardHeal" onclick="wizardHeal()"><i
+          <button class="healButton btn btn-lg" id="wizardHeal" onclick="wizardHeal()"><i
               class="fa-solid fa-hand-sparkles px-2"></i>Heal +10</button>
         </div>
         <div>
-          <button class="buttonAttack" id="fireball" onclick="fireball()">Cast Fireball</button>
+          <button class="buttonAttack btn btn-lg" id="fireball" onclick="fireball()">🔥 Cast Fireball</button>
         </div>
       </div>
     </section>
     <section class="row">
-      <div class="col text-center">
-        <button id="restartButton" onclick="restartGame()">Restart Game
+      <div class="col text-center p-4">
+        <button class="restartButton btn btn-lg" id="restartButton" onclick="restartGame()">Restart Game
         </button>
       </div>
     </section>
   </main>
 
-  <footer class="container-fluid">
-    <section class="row">
-      <div class="col-6">
-        <img src="" alt="">
-      </div>
-      <div class="col-6">
-        <img src="" alt="">
-      </div>
-    </section>
-  </footer>
+<!-- https://opengameart.org/sites/default/files/robot-preview.png ROBOT -->
+
+<!-- https://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/d90150f3b15d09b.png WIZARD -->
 
 
   <script src="https://kit.fontawesome.com/6b1affbc75.js" crossorigin="anonymous"></script>
